@@ -1,0 +1,89 @@
+/* On Mobile, we want to stack what floats */
+/* Navbar */
+#navbar .logo{
+  float: none;
+  text-align: center;
+}
+
+#navbar ul, #navbar ul li  {
+  float: none;
+  text-align: center;
+}
+
+#navbar ul li a {
+  padding: 5px;
+  border-bottom: #444 dotted 1px
+
+}
+
+#navbar ul li a:hover,
+#navbar ul li a:focus,
+#navbar ul li a:active {
+    color: #f7c08a;
+    background: #555;
+}
+
+/* Home Info */
+#home-info {
+  height: 500px;
+}
+
+#home-info .info-img{
+  display: none;
+}
+
+#home-info .info-content{
+  float: none;
+  width: 100%;
+}
+
+/* Boxes */
+.box {
+  float: none;
+  width: 100%;
+
+}
+
+/* About Section */
+
+#about-info .container .info-left, #about-info .container .info-right {
+  float: none;
+  width: 100%;
+}
+
+/* Centralize heading */
+.l-heading{
+  text-align: center;
+
+}
+
+/* info Right */
+#about-info .container .info-right {
+  margin-top: 20px;
+}
+
+/* Contact */
+
+#contact-info .container .box{
+  border-bottom: #444 dotted 1px;
+}
+ 
+/* Showcase */
+
+#showcase {
+  height: 100%;
+}
+
+#showcase .container .showcase-content {
+
+  padding-top: 70px;
+  padding-bottom: 45px;
+}
+
+
+/* Testimonial Section */
+#about-testiominal{
+  padding-top: 30px ;
+}
+
+

@@ -1,0 +1,333 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    /* All links have no underline */
+}
+
+h1, h2, h3{
+    padding-bottom: 20px;
+}
+
+p{
+    margin: 10px 0;
+    /*Top/Bottom Left&Right */
+}
+
+/* Utility Class */
+.container{
+    margin: auto;
+    /* Push to middle */
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+    /* background-color: #333; */
+}
+
+.text-primary{
+    /* Adding it here so it can be reused */
+    color: #f7c08a;
+    /*Cream Orange */
+}
+
+.lead-text{
+    font-size: 20px;
+}
+
+/* Button */
+.lead-button{
+    display: inline-block;
+    background-color: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color:#ddd;
+}
+
+/* Box */
+.box {
+    float: left;
+    padding: 50px;
+    text-align: center;
+    width: 33.3%;
+}
+
+.lead-button:hover{
+    background-color: #f7c08a;
+    color: #333;
+
+}
+
+.button-light{
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+
+/* Paragraph Background */
+.bg-dark{
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+.bg-light{
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.bg-primary{
+    background-color: #f7c08a;
+    color: #333;
+}
+
+.clr{
+    clear: both;
+}
+
+.circle-image-effect{
+    border-radius: 50%;
+}
+
+/* Padding Additions */
+
+.py-1 {
+    padding: 10px 0;
+}
+
+.py-2 {
+    padding: 20px 0;
+}
+
+.py-3 {
+    padding: 30px 0;
+}
+
+/* Enlarge heading */
+.l-heading{
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+/* Navbar */
+#navbar{
+    /* # is for id*/
+    background: #333;
+    overflow: auto;
+    /*Add Scroll bar when necessary*/
+}
+
+
+#navbar .logo {
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul {
+    float: right;
+    list-style: none;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current /* Add the same styling to current page */
+    {
+    color: #f7c08a; /*Cream Orange */
+    background:  #555;
+}
+
+/* Showcase */
+#showcase {
+    background: url(../img/showcase.jpg) no-repeat center center/cover;
+    height: 700px;
+}
+
+#showcase .container .showcase-content {
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+/*Adding Padding to push button downstairs */
+#showcase .showcase-content p {
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+
+/* Home Info */
+#home-info {
+    height: 450px;
+}
+
+#home-info .info-img {
+    float: left;
+    width: 50%;
+    background: URL(../img/photo-1.jpg);
+    min-height: 100%;
+}
+
+#home-info .info-content {
+    float: right;
+    width: 50%;
+    padding: 50px 30px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#home-info .info-content p {
+    padding-bottom: 30px;
+
+}
+
+/* Features
+#features .box {
+    float: left;
+    padding: 50px;
+    text-align: center;
+    width: 33.3%;
+} */
+
+/* About Page */
+#about-info .container{
+    padding-bottom: 20px;
+}
+
+
+
+/* About Section */
+
+/* Info left */
+#about-info .container .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+/* info Right */
+#about-info .container .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .container .info-right img {
+    width: 70%;
+    display: block;
+    /*Images by default are inline */
+    margin: auto;
+}
+
+
+/* Testimonial Section */
+#about-testiominal{
+    height: 100%;/*100% of the content in it */
+    background: url(../img/test-bg.jpg) no-repeat center center/cover;
+    padding-top: 100px ;
+}
+
+#about-testiominal h2{
+    color: #fff;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 30px;
+}
+
+#about-testiominal .testimonial {
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+
+
+
+#about-testiominal .testimonial img{
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+}
+
+/* Contact Section */
+#contact-section .container .form-group{
+    margin-bottom: 20px;
+}
+
+#contact-section .container .form-group label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-section .container .form-group input,
+#contact-section .container .form-group textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+
+#contact-section .container .form-group textarea{
+    height: 200px;
+}
+
+#contact-section .container .form-group input:focus,
+#contact-section .container .form-group textarea:focus{
+    outline: none;
+    border-color: #f7c08a;
+
+}
+
+
+
+
+
+
+/*
+
+<section id="contact-section" class="py-3">
+        <div class="container">
+            <h1 class="l-heading"><span class="text-primary">Contact </span>Us</h1>
+            <p>Please fill out the form below to contact us</p>
+            <form action="process.php">
+                <div class="form-group">*/
+
+
+/* Footer */
+#footer {
+    background: #444;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+#footer p {
+    margin: 10px 0;
+    display: box;
+    font-size: 20px;
+}
