@@ -302,8 +302,14 @@ p{
     border-color: #f7c08a;
 
 }
+.is-required::after{
+    content: '*';
+    padding-left: 4px;
+    color: red;
+  }
 
-.recaptcha-wrapper { margin-bottom: 20px; }
+.recaptcha-wrapper { 
+    margin-bottom: 20px; }
 
 
 
